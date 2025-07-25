@@ -75,7 +75,7 @@ a {
 }
 
 .section-title h2 .text-orange {
-    font-weight: 400; /* Match the image style */
+    font-weight: 400; 
 }
 
 .section-title p {
@@ -114,7 +114,7 @@ header {
 }
 
 .nav-links {
-    display: none; /* Hidden on mobile */
+    display: none; 
     gap: 2rem;
 }
 
@@ -166,7 +166,7 @@ header {
 }
 
 .hero-image {
-    order: -1; /* Image on top on mobile */
+    order: -1; 
 }
 
 .hero-image img {
@@ -230,8 +230,9 @@ header {
     border-radius: 0.5rem;
     
 }
+
 .trusted-badge {
-    display: none; /* Hidden on mobile */
+    display: none; 
     position: absolute;
     top: -2rem;
     right: -2rem;
@@ -246,7 +247,6 @@ header {
 .animate-spin-slow {
     animation: spin-infinite 10s linear infinite;
 }
-
 
 .lover-content h2 {
     font-size: 2.5rem;
@@ -420,7 +420,7 @@ header {
     display: flex;
     gap: 4rem;
     margin-top: 2rem;
-    justify-content: center; /* Center the columns horizontally */
+    justify-content: center; 
 }
 
 .footer-links ul {
@@ -445,6 +445,7 @@ header {
     align-items: center;
     gap: 1rem;
 }
+
 .social-icons {
     margin-left: auto;
     display: flex;
@@ -466,8 +467,9 @@ header {
 .social-icons a:hover img {
     opacity: 1;
 }
+
 /* 9. Responsive Design (Media Queries) */
-@media (min-width: 768px) { /* md breakpoint */
+@media (min-width: 768px) { 
     .nav-links {
         display: flex;
     }
@@ -476,7 +478,7 @@ header {
         text-align: left;
     }
     .hero-image {
-        order: 1; /* Reset order for desktop */
+        order: 1; 
     }
     .plants-grid {
         grid-template-columns: repeat(4, 1fr);
@@ -505,6 +507,3 @@ header {
         justify-content: space-between;
     }
 }
-
-
-
