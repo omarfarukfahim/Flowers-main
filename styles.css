@@ -357,6 +357,77 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+/* 8. Footer */
+.footer {
+    padding-top: 4rem;
+    background-color: var(--color-white);
+    color: var(--color-text-light);
+}
 
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.logo-footer {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text);
+}
+
+.footer-about p {
+    margin-top: 2rem;
+    max-width: 450px;
+    text-align: left;
+}
+
+.footer-links h4 {
+    color: var(--color-text);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-links a:hover {
+    color: var(--color-orange);
+}
+.footer-links-group {
+    display: flex;
+    gap: 4rem;
+    margin-top: 2rem;
+    justify-content: center; /* Center the columns horizontally */
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-bottom {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.footer-bottom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
 
 
