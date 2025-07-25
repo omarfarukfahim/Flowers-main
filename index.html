@@ -227,5 +227,14 @@
             </div>
         </div>
     </footer>
+    <!-- JavaScript for Alert -->
+    <script>
+        const addToCartButtons = document.querySelectorAll('.add-to-cart-btn');
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Flower Added to Cart');
+            });
+        });
+    </script>
 </body>
 </html>
