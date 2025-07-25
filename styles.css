@@ -319,7 +319,7 @@ header {
 /* 7. Join Section */
 .join-section {
     padding: 10rem 1.5rem;
-    background-image: url('/assets/news-letter-bg.png');
+    background-image: url('assets/news-letter-bg.png');
     background-size: cover;
     background-position: center;
     color: var(--color-white);
